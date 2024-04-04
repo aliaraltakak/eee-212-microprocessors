@@ -1,7 +1,6 @@
 # EEE212 Microprocessors Laboratory Exercises
 
-This repository contains code for laboratory exercises as part of the EEE212 Microprocessors course. Each lab exercise is designed to enhance students' understanding of microprocessors, 
-specifically working with the 8051 microcontroller, its timers, and interfacing with various components using Proteus simulation software.
+This repository contains code for laboratory exercises as part of the EEE212 Microprocessors course. 
 
 ## Lab 1: Working with Hexadecimal Numbers and Date Calculations
 
