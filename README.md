@@ -32,3 +32,11 @@ This repository contains code for laboratory exercises as part of the EEE212 Mic
 - **Tools Used:** Proteus simulation software for input and LCD display.
 - **Key Feature:** The countdown must be implemented using timers, with updates every 0.5 seconds.
 
+
+## Lab 3: Binary LED Counter
+
+- **Objective:** Construct a 4-bit binary LED counter system that can count up or down, with varying speed; depending on the switch conditions.
+- **Tools Used:** Keil microVision software for coding environment, NXP FRDM KL25Z microcontroller for the main system, LEDs and a switch on a breadboard for physical implementation.
+- **Switch Configuration:**
+  - Switch 1 controls the counting order, that is, up or down.
+  - Switches 2 and 3 control the counting speed.
