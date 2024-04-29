@@ -40,3 +40,11 @@ This repository contains code for laboratory exercises as part of the EEE212 Mic
 - **Switch Configuration:**
   - Switch 1 controls the counting order, that is, up or down.
   - Switches 2 and 3 control the counting speed.
+
+## Lab 4: Servo Motor Control
+
+- **Objective:** Design a servo motor control unit which will rotate on two states:
+  - **State 1:** The servo will rotate between angles 0-30-60-90-60-30-0 continuously, with a time interval of 0.5 seconds between each angle.
+  - **State 2:** The servo will rotate between angles 180-150-120-90-120-150-180 continuously, with a time interval of 0.5 seconds between each angle.
+- **Details:** The servo state is determined by an external button, whereas the status of the button triggers an interrupt service. I have used the internal timer TPM1 to generate pulse signals, and used the SysTick timer to generate the required delay between the movements.
+- **Tools Used:** Keil microVision software for coding environment, NXP FRDM KL25Z microcontroller for the main system, SG90 servo motor and a simple push button for physical implementation.
