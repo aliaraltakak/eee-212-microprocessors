@@ -48,3 +48,10 @@ This repository contains code for laboratory exercises as part of the EEE212 Mic
   - **State 2:** The servo will rotate between angles 180-150-120-90-120-150-180 continuously, with a time interval of 0.5 seconds between each angle.
 - **Details:** The servo state is determined by an external button, whereas the status of the button triggers an interrupt service. I have used the internal timer TPM1 to generate pulse signals, and used the SysTick timer to generate the required delay between the movements.
 - **Tools Used:** Keil microVision software for coding environment, NXP FRDM KL25Z microcontroller for the main system, SG90 servo motor and a simple push button for physical implementation.
+
+
+## Term Project: Fixed-Frequency, Adjustable Amplitude Signal Generator
+
+- **Objective:** As the term project of the course, I have designed a simple signal generator which can generate three different waveforms: Square Wave, Rectified Sinusoidal Wave, and Sawtooth Wave, with a fixed frequency of 500 Hz. 
+- **Details:** An interrupt service with a push-button control is used to switch between generated waves. The amplitude of the signals are adjusted by a potentiometer, ranging from 0 Volts to 3.3 Volts.
+- **Tools Used:** The project was developed in Keil microVision, the main microcontroller is NXP FRDM KL25Z. The physical implementation was done in a breadboard, where I used a potentiometer to adjust the amplitude, push-button switch to control the waveform states, and an LCD display to show the instantaneous amplitude and the abbreviation for the generated signal.
